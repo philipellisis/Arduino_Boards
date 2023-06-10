@@ -57,48 +57,19 @@ To add board support for our products, start Arduino and open the Preferences wi
 
 	https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json
 
-![Location of Additional Boards Manager URL input field](prefs-arrow.png)
 
 If there is already an URL from another manufacturer in that field, click the button at the right end of the field. This will open an editing window allowing you to paste the above URL onto a new line.
 
-### Apollo3 and AVR Installation Instructions
+### ClevSoft Installation Instructions
 
 Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the top of the board list, and select **Boards Manager**.
 
-![Boards Manager Menu](manager-menu.png)
 
-If you type "sparkfun" (without quotes) into the "filter your search" field, you will see options to install SparkFun's Apollo3 and AVR board files. Click in the desired box, and click the "Install" button that appears. Once installed, the boards will appear at the bottom of the board list.
+If you type "clevsoft" (without quotes) into the "filter your search" field, you will see options to install clevsoft's AVR board files. Click in the desired box, and click the "Install" button that appears. Once installed, the boards will appear at the bottom of the board list.
 
-![Sparkfun Boards](sparkfunboards.png)
-
-### SAMD Installation Instructions
-
-When installing SAMD boards, you will need to first install Arduino SAMD support, then SparkFun's SAMD boards.
-
-Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the top of the board list, and select **Boards Manager**. Now type "samd" (without quotes) into the "filter your search" field at the top of the window. Two entries should show up, one for Arduino SAMD boards, and one for SparkFun SAMD boards. We'll install both of these, starting with Arduino SAMD boards.
-
-Click anywhere in the "Arduino SAMD Boards" box, and click "Install". This is a large installation and will take a while.
-
-![Arduino SAMD Boards](manager-arrow.png)
-
-Now click anywhere in the "SparkFun SAMD Boards" box, and click "Install". This is a small installation and will happen much faster.
-
-![SparkFun SAMD Boards](manager-arrow2.png)
-
-You're now ready to use SparkFun SAMD boards. They will appear at the bottom of the board list.
-
-### ESP Boards?
-
-All support for our ESP based boards are supported within their respective Espressif's Repository. 
-
-* For our ESP8266 based boards: [Blynk](https://www.sparkfun.com/products/13794), [ESP8266 Thing](https://www.sparkfun.com/products/13231), or [ESP8266 Thing Dev](https://www.sparkfun.com/products/13711), you can install the board files by following the instructions [here](https://github.com/esp8266/Arduino).
-
-* For our ESP32 based boards Boards: [SparkFun Thing Plus - ESP32 WROOM](https://www.sparkfun.com/products/14689), [SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907), [SparkFun LoRa Gateway - 1-Channel (ESP32](https://www.sparkfun.com/products/15006) you can install the board files by following the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md).
 
 ### Notes
 
 * Some boards such as the Arduino Pro and Pro Mini come in more than one flavor.  For these **you must select the correct processor** in the 'Tools' menu.
 * Information on compiling and programming the bootloaders can be found in the bootloaders directory.
 
-**Have fun!**<br>
-\-Your friends at SparkFun

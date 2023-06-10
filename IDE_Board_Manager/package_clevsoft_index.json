@@ -1,0 +1,36 @@
+{
+  "packages": [
+    {
+      "name": "ClevSoft",
+      "maintainer": "Cleveland Software Design",
+      "websiteURL": "https://ClevelandSoftwareDesign.com",
+      "email": "Sales@ClevelandSoftwareDesign.com",
+      "help": {
+        "online": "https://clevelandsoftwaredesign.com"
+      },
+      "platforms": [
+        {
+          "name": "Cleveland Software Design Boards",
+          "architecture": "avr",
+          "version": "1.1.13",
+          "category": "Contributed",
+          "url": "https://github.com/clevsoft/Arduino_Boards/raw/main/IDE_Board_Manager/clevsoftboards.1.1.13.tar.gz",
+          "archiveFileName": "clevsoftboards.1.1.13.tar.gz",
+          "checksum": "SHA-256:fb4113cc494e9b7047d8617d362a5d8be2be36853c71cc03881790423c81e6dd",
+          "size": "904687",
+          "help": {
+            "online": "https://clevelandsoftwaredesign.com"
+          },
+          "boards": [
+            {
+              "name": "ClevSoft Pinball"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
