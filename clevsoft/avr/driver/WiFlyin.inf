@@ -101,7 +101,7 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 [Strings]
 MFGFILENAME="CDC_vista"
 DRIVERFILENAME ="usbser"
-MFGNAME="SparkFun Electronics"
-INSTDISK="SparkFun WiFlyin' Driver Installer"
-DESCRIPTION="SparkFun WiFlyin'"
+MFGNAME="ClevlandSoftware"
+INSTDISK="ClevSoft WiFlyin' Driver Installer"
+DESCRIPTION="ClevSoft WiFlyin'"
 SERVICE="USB RS-232 Emulation Driver"
