@@ -1,6 +1,6 @@
 # Hey Emacs, this is a -*- makefile -*-
 #----------------------------------------------------------------------------
-# WinAVR Makefile Template written by Eric B. Weddington, Jörg Wunsch, et al.
+# WinAVR Makefile Template written by Eric B. Weddington, Jï¿½rg Wunsch, et al.
 #  >> Modified for use with the LUFA project. <<
 #
 # Released to the Public Domain
@@ -48,17 +48,10 @@
 
 # USB vendor ID (VID)
 # official Arduino LLC VID = 0x2341
-# SparkFun VID = 0x1B4F
-VID = 0x1B4F
+VID = 0x0E8F
 
 # USB product ID (PID)
-# official Leonardo PID = 0x0036
-# SparkFun WiFlyin' PID = 0x9209
-# SparkFun LilyPadUSB PID = 0x9207
-# SparkFun Pro Micro 5V PID = 0x9205
-# "                " 3.3V PID = 0x9203
-# MaKey MaKey PID = 0x2B74
-PID = 0x9205
+PID = 0x3013
 
 # MCU name
 MCU = atmega32u4

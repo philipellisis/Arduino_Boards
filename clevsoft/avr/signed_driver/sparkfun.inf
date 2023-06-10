@@ -13,21 +13,21 @@ CatalogFile=%MFGFILENAME%.cat
 DriverVer=04/22/2016 ; Must be most recent date of any file in driver package
 
 [Manufacturer]
-%MFGNAME%=SparkFunDevices, NTamd64, NTia64
+%MFGNAME%=ClevSoftDevices, NTamd64, NTia64
 
 [DestinationDirs]
 FakeModemCopyFileSection=12
 DefaultDestDir=12 ; dirid = \Drivers on WinNT platforms
 
 [DefaultInstall]
-CopyINF=sparkfun.inf
+CopyINF=ClevSoft.inf
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
 CopyFiles=FakeModemCopyFileSection
-AddReg=SparkFun.AddReg
+AddReg=ClevSoft.AddReg
 
-[SparkFun.AddReg]
+[ClevSoft.AddReg]
 HKR,,DevLoader,,*ntkern
 HKR,,NTMPDriver,,%DRIVERFILENAME%.sys
 HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
@@ -47,71 +47,31 @@ LoadOrderGroup=Base
 ;------------------------------------------------------------------------------
 ;  Vendor and Product ID Definitions
 ;------------------------------------------------------------------------------
-[SparkFunDevices]
-; Old ones
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0002
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0002&MI_00
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0003
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0003&MI_00
-; 3.3V/8MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9203
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9204&MI_00
+[ClevSoftDevices]
 ; 5V/16MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9205
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9206&MI_00
-%Makey.Makey.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_2B74
-%Makey.Makey.sketch.name%=DriverInstall, USB\VID_1B4F&PID_2B75&MI_00
-%Fio.V3.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_F100
-%Fio.V3.sketch.name%=DriverInstall, USB\VID_1B4F&PID_F101&MI_00
+%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_0E8F&PID_3013
+%Pro.Micro.sketch.name%=DriverInstall, USB\VID_0E8F&PID_3013&MI_00
 
 
-[SparkFunDevices.NTamd64]
-; Old ones
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0002
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0002&MI_00
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0003
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0003&MI_00
-; 3.3V/8MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9203
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9204&MI_00
+[ClevSoftDevices.NTamd64]
 ; 5V/16MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9205
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9206&MI_00
-%Makey.Makey.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_2B74
-%Makey.Makey.sketch.name%=DriverInstall, USB\VID_1B4F&PID_2B75&MI_00
-%Fio.V3.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_F100
-%Fio.V3.sketch.name%=DriverInstall, USB\VID_1B4F&PID_F101&MI_00
+%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_0E8F&PID_3013
+%Pro.Micro.sketch.name%=DriverInstall, USB\VID_0E8F&PID_3013&MI_00
 
-[SparkFunDevices.NTia64]
-; Old ones
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0002
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0002&MI_00
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_0003
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_0003&MI_00
-; 3.3V/8MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9203
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9204&MI_00
+[ClevSoftDevices.NTia64]
 ; 5V/16MHz
-%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_9205
-%Pro.Micro.sketch.name%=DriverInstall, USB\VID_1B4F&PID_9206&MI_00
-%Makey.Makey.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_2B74
-%Makey.Makey.sketch.name%=DriverInstall, USB\VID_1B4F&PID_2B75&MI_00
-%Fio.V3.bootloader.name%=DriverInstall, USB\VID_1B4F&PID_F100
-%Fio.V3.sketch.name%=DriverInstall, USB\VID_1B4F&PID_F101&MI_00
+%Pro.Micro.bootloader.name%=DriverInstall, USB\VID_0E8F&PID_3013
+%Pro.Micro.sketch.name%=DriverInstall, USB\VID_0E8F&PID_3013&MI_00
 
 ;------------------------------------------------------------------------------
 ;  String Definitions
 ;------------------------------------------------------------------------------
 [Strings]
-MFGFILENAME="SparkFun"
-DriverPackageDisplayName="SparkFun AVR USB Driver"
+MFGFILENAME="ClevSoft"
+DriverPackageDisplayName="ClevSoft AVR USB Driver"
 ServiceName="USB RS-232 Emulation Driver"
 DRIVERFILENAME ="usbser"
-MFGNAME="SparkFun Electronics"
+MFGNAME="Cleveland Software Design"
 leonardo.sketch.name="Arduino Leonardo"
-Pro.Micro.bootloader.name="SparkFun Pro Micro bootloader"
-Pro.Micro.sketch.name="SparkFun Pro Micro"
-Makey.Makey.bootloader.name="SparkFun MaKey MaKey bootloader"
-Makey.Makey.sketch.name="SparkFun Makey Makey"
-Fio.V3.bootloader.name="SparkFun Fio V3 bootloader"
-Fio.V3.sketch.name="SparkFun Fio V3"
+Pro.Micro.bootloader.name="ClevSoft Pro Micro bootloader"
+Pro.Micro.sketch.name="ClevSoft Pro Micro"
