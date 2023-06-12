@@ -5518,31 +5518,31 @@
  1751               		.file 12 "/usr/lib/avr/include/avr/eeprom.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Caterina.c
-     /tmp/ccFje2dg.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccFje2dg.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccFje2dg.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccFje2dg.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccFje2dg.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccFje2dg.s:12     .text.FetchNextCommandByte:0000000000000000 FetchNextCommandByte
-     /tmp/ccFje2dg.s:78     .text.WriteNextResponseByte:0000000000000000 WriteNextResponseByte
-     /tmp/ccFje2dg.s:1722   .bss:0000000000000006 TxLEDPulse
-     /tmp/ccFje2dg.s:154    .text.StartSketch:0000000000000000 StartSketch
-     /tmp/ccFje2dg.s:196    .text.__vector_17:0000000000000000 __vector_17
-     /tmp/ccFje2dg.s:1717   .bss:0000000000000004 RxLEDPulse
-     /tmp/ccFje2dg.s:1707   .bss:0000000000000000 resetTimeout
-     /tmp/ccFje2dg.s:1712   .bss:0000000000000002 Timeout
-     /tmp/ccFje2dg.s:315    .text.EVENT_USB_Device_ConfigurationChanged:0000000000000000 EVENT_USB_Device_ConfigurationChanged
-     /tmp/ccFje2dg.s:358    .text.EVENT_USB_Device_ControlRequest:0000000000000000 EVENT_USB_Device_ControlRequest
-     /tmp/ccFje2dg.s:1735   .data:0000000000000002 LineEncoding
-     /tmp/ccFje2dg.s:443    .text.CDC_Task:0000000000000000 CDC_Task
-     /tmp/ccFje2dg.s:1725   .bss:0000000000000009 CurrAddress
-     /tmp/ccFje2dg.s:1418   .text.startup.main:0000000000000000 main
+     /tmp/ccr4TdDz.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccr4TdDz.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccr4TdDz.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccr4TdDz.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccr4TdDz.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccr4TdDz.s:12     .text.FetchNextCommandByte:0000000000000000 FetchNextCommandByte
+     /tmp/ccr4TdDz.s:78     .text.WriteNextResponseByte:0000000000000000 WriteNextResponseByte
+     /tmp/ccr4TdDz.s:1722   .bss:0000000000000006 TxLEDPulse
+     /tmp/ccr4TdDz.s:154    .text.StartSketch:0000000000000000 StartSketch
+     /tmp/ccr4TdDz.s:196    .text.__vector_17:0000000000000000 __vector_17
+     /tmp/ccr4TdDz.s:1717   .bss:0000000000000004 RxLEDPulse
+     /tmp/ccr4TdDz.s:1707   .bss:0000000000000000 resetTimeout
+     /tmp/ccr4TdDz.s:1712   .bss:0000000000000002 Timeout
+     /tmp/ccr4TdDz.s:315    .text.EVENT_USB_Device_ConfigurationChanged:0000000000000000 EVENT_USB_Device_ConfigurationChanged
+     /tmp/ccr4TdDz.s:358    .text.EVENT_USB_Device_ControlRequest:0000000000000000 EVENT_USB_Device_ControlRequest
+     /tmp/ccr4TdDz.s:1735   .data:0000000000000002 LineEncoding
+     /tmp/ccr4TdDz.s:443    .text.CDC_Task:0000000000000000 CDC_Task
+     /tmp/ccr4TdDz.s:1725   .bss:0000000000000009 CurrAddress
+     /tmp/ccr4TdDz.s:1418   .text.startup.main:0000000000000000 main
                              .bss:0000000000000008 sketchPresent
-     /tmp/ccFje2dg.s:1701   .data:0000000000000000 bootKey
-     /tmp/ccFje2dg.s:1729   .data:0000000000000001 RunBootloader
+     /tmp/ccr4TdDz.s:1701   .data:0000000000000000 bootKey
+     /tmp/ccr4TdDz.s:1729   .data:0000000000000001 RunBootloader
                             *COM*:0000000000000002 LLEDPulse
-     /tmp/ccFje2dg.s:1695   .rodata:0000000000000000 bootKeyPtr
-     /tmp/ccFje2dg.s:438    .rodata.str1.1:0000000000000000 .LC0
+     /tmp/ccr4TdDz.s:1695   .rodata:0000000000000000 bootKeyPtr
+     /tmp/ccr4TdDz.s:438    .rodata.str1.1:0000000000000000 .LC0
 
 UNDEFINED SYMBOLS
 Endpoint_ConfigureEndpoint_Prv

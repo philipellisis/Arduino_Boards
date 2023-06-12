@@ -395,26 +395,26 @@
  121               	ManufNameString:
  122 0000 2A        		.byte	42
  123 0001 03        		.byte	3
- 124 0002 5500      		.string	"U"
- 125 0004 6E00      		.string	"n"
- 126 0006 6B00      		.string	"k"
- 127 0008 6E00      		.string	"n"
- 128 000a 6F00      		.string	"o"
- 129 000c 7700      		.string	"w"
- 130 000e 6E00      		.string	"n"
- 131 0010 2000      		.string	" "
- 132 0012 2000      		.string	" "
- 133 0014 2000      		.string	" "
- 134 0016 2000      		.string	" "
- 135 0018 2000      		.string	" "
- 136 001a 2000      		.string	" "
+ 124 0002 4300      		.string	"C"
+ 125 0004 6C00      		.string	"l"
+ 126 0006 6500      		.string	"e"
+ 127 0008 7600      		.string	"v"
+ 128 000a 2000      		.string	" "
+ 129 000c 5300      		.string	"S"
+ 130 000e 6F00      		.string	"o"
+ 131 0010 6600      		.string	"f"
+ 132 0012 7400      		.string	"t"
+ 133 0014 7700      		.string	"w"
+ 134 0016 6100      		.string	"a"
+ 135 0018 7200      		.string	"r"
+ 136 001a 6500      		.string	"e"
  137 001c 2000      		.string	" "
- 138 001e 2000      		.string	" "
- 139 0020 2000      		.string	" "
- 140 0022 2000      		.string	" "
- 141 0024 2000      		.string	" "
- 142 0026 2000      		.string	" "
- 143 0028 2000      		.string	" "
+ 138 001e 4400      		.string	"D"
+ 139 0020 6500      		.string	"e"
+ 140 0022 7300      		.string	"s"
+ 141 0024 6900      		.string	"i"
+ 142 0026 6700      		.string	"g"
+ 143 0028 6E00      		.string	"n"
  144 002a 00        		.string	""
  145 002b 00        		.string	""
  146               	.global	ProductString
@@ -510,7 +510,7 @@
  244 0093 00        		.byte	0
  245 0094 00        		.byte	0
  246 0095 08        		.byte	8
- 247 0096 4F1B      		.word	6991
+ 247 0096 8F0E      		.word	3727
  248 0098 0592      		.word	-28155
  249 009a 0100      		.word	1
  250 009c 02        		.byte	2
@@ -526,17 +526,17 @@
  260               		.file 6 "Descriptors.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Descriptors.c
-     /tmp/ccahLLNX.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccahLLNX.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccahLLNX.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccahLLNX.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccahLLNX.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccahLLNX.s:13     .text.CALLBACK_USB_GetDescriptor:0000000000000000 CALLBACK_USB_GetDescriptor
-     /tmp/ccahLLNX.s:239    .rodata:000000000000008e DeviceDescriptor
-     /tmp/ccahLLNX.s:178    .rodata:0000000000000050 ConfigurationDescriptor
-     /tmp/ccahLLNX.s:121    .rodata:0000000000000000 ManufNameString
-     /tmp/ccahLLNX.s:171    .rodata:000000000000004c LanguageString
-     /tmp/ccahLLNX.s:149    .rodata:000000000000002c ProductString
+     /tmp/ccsXj89f.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccsXj89f.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccsXj89f.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccsXj89f.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccsXj89f.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccsXj89f.s:13     .text.CALLBACK_USB_GetDescriptor:0000000000000000 CALLBACK_USB_GetDescriptor
+     /tmp/ccsXj89f.s:239    .rodata:000000000000008e DeviceDescriptor
+     /tmp/ccsXj89f.s:178    .rodata:0000000000000050 ConfigurationDescriptor
+     /tmp/ccsXj89f.s:121    .rodata:0000000000000000 ManufNameString
+     /tmp/ccsXj89f.s:171    .rodata:000000000000004c LanguageString
+     /tmp/ccsXj89f.s:149    .rodata:000000000000002c ProductString
 
 UNDEFINED SYMBOLS
 __do_copy_data

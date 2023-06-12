@@ -77,19 +77,19 @@
   43               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Events.c
-     /tmp/ccyzMdhu.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccyzMdhu.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccyzMdhu.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccyzMdhu.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccyzMdhu.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 USB_Event_Stub
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_StartOfFrame
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Reset
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_WakeUp
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Suspend
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ConfigurationChanged
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ControlRequest
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Disconnect
-     /tmp/ccyzMdhu.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Connect
+     /tmp/ccp7GUSW.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccp7GUSW.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccp7GUSW.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccp7GUSW.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccp7GUSW.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 USB_Event_Stub
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_StartOfFrame
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Reset
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_WakeUp
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Suspend
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ConfigurationChanged
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ControlRequest
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Disconnect
+     /tmp/ccp7GUSW.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Connect
 
 NO UNDEFINED SYMBOLS

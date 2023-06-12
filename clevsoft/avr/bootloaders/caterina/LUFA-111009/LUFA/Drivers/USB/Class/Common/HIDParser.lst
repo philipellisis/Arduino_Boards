@@ -2197,15 +2197,15 @@
  1710               		.file 4 "LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 HIDParser.c
-     /tmp/ccQu2Dmu.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccQu2Dmu.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccQu2Dmu.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccQu2Dmu.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccQu2Dmu.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccQu2Dmu.s:13     .text.USB_ProcessHIDReport:0000000000000000 USB_ProcessHIDReport
-     /tmp/ccQu2Dmu.s:1271   .text.USB_GetHIDReportItemInfo:0000000000000000 USB_GetHIDReportItemInfo
-     /tmp/ccQu2Dmu.s:1441   .text.USB_SetHIDReportItemInfo:0000000000000000 USB_SetHIDReportItemInfo
-     /tmp/ccQu2Dmu.s:1632   .text.USB_GetHIDReportSize:0000000000000000 USB_GetHIDReportSize
+     /tmp/cchEO01Y.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/cchEO01Y.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/cchEO01Y.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/cchEO01Y.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/cchEO01Y.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/cchEO01Y.s:13     .text.USB_ProcessHIDReport:0000000000000000 USB_ProcessHIDReport
+     /tmp/cchEO01Y.s:1271   .text.USB_GetHIDReportItemInfo:0000000000000000 USB_GetHIDReportItemInfo
+     /tmp/cchEO01Y.s:1441   .text.USB_SetHIDReportItemInfo:0000000000000000 USB_SetHIDReportItemInfo
+     /tmp/cchEO01Y.s:1632   .text.USB_GetHIDReportSize:0000000000000000 USB_GetHIDReportSize
 
 UNDEFINED SYMBOLS
 CALLBACK_HIDParser_FilterHIDReportItem
