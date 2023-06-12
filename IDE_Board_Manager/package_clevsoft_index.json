@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/philipellisis/Arduino_Boards/raw/main/IDE_Board_Manager/clevsoftboards.1.1.13.tar.gz",
           "archiveFileName": "clevsoftboards.1.1.13.tar.gz",
-          "checksum": "SHA-256:18eb253c275d2058b578c54fadb1fe34b4574465b8db5e7bedc9992ce2d2bbc4",
-          "size": "904467",
+          "checksum": "SHA-256:07a471e3f66a5415865e622c78ffcdc773376336477b94851cec94120f61ee1a",
+          "size": "904383",
           "help": {
             "online": "https://clevelandsoftwaredesign.com"
           },

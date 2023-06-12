@@ -1,4 +1,4 @@
-# Spark Board Contribution Configuration
+# Cleveland Software Design Contribution Configuration
 #
 # For more information see:
 # * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
