@@ -12,12 +12,12 @@
         {
           "name": "Cleveland Software Design Boards",
           "architecture": "avr",
-          "version": "1.1.13",
+          "version": "1.1.14",
           "category": "Contributed",
-          "url": "https://github.com/philipellisis/Arduino_Boards/raw/main/IDE_Board_Manager/clevsoftboards.1.1.13.tar.gz",
-          "archiveFileName": "clevsoftboards.1.1.13.tar.gz",
-          "checksum": "SHA-256:65c85efa3e8fe96448bf7c42e6943739a1f9ca58988d231a37038e379532efb6",
-          "size": "901405",
+          "url": "https://github.com/philipellisis/Arduino_Boards/raw/main/IDE_Board_Manager/clevsoftboards.1.1.14.tar.gz",
+          "archiveFileName": "clevsoftboards.1.1.14.tar.gz",
+          "checksum": "SHA-256:7c1943f640c06a90e24062fac28a2c5c04380143df67cca7e19f7a08f0e55845",
+          "size": "992609",
           "help": {
             "online": "https://clevelandsoftwaredesign.com"
           },

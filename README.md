@@ -24,8 +24,12 @@ If you type "clevsoft" (without quotes) into the "filter your search" field, you
 * Some boards such as the Arduino Pro and Pro Mini come in more than one flavor.  For these **you must select the correct processor** in the 'Tools' menu.
 * Information on compiling and programming the bootloaders can be found in the bootloaders directory.
 
-updating package.json file
- - unzip file: tar -xf clevsoftboards.1.1.13.tar.gz
- - make changes and zip file back: tar -czvf clevsoftboards.1.1.13.tar.gz avr
- - update package with checksum: sha256sum clevsoftboards.1.1.13.tar.gz
+#### updating package.json file
+ - unzip file: tar -xf clevsoftboards.1.1.14.tar.gz
+ - make changes and zip file back: tar -czvf clevsoftboards.1.1.14.tar.gz avr
+ - update package with checksum: sha256sum clevsoftboards.1.1.14.tar.gz
  - update package with size: ls -l
+
+#### testing locally
+
+You can test new implementations by navigating to C:\Users\{user}\AppData\Local\Arduino15\packages\ClevSoft\hardware\avr\1.1.14 and adjusting files as needed.
